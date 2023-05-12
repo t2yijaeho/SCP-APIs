@@ -8,7 +8,9 @@ To use SCP APIs, you need to have a SCP account. This allows you to use SCP deve
 
 ## Creating a SCP project
 
-To use SCP APIs, you also need to have a SCP project. A project provides a managing boundary for your usage of SCP services and dashboards are grouped by projects, you can create one using the [***SCP console***](https://cloud.samsungsds.com/console/)
+To use SCP APIs, you also need to have a SCP project. A project provides a managing boundary for your usage of SCP services and dashboards are grouped by projects
+
+[***SCP console***](https://cloud.samsungsds.com/console/)
 
 ## Discovering APIs
 
@@ -63,7 +65,7 @@ Refer to [Debian and Ubuntu based Linux distributions](https://github.com/nodeso
 
 ### 2. Create a Node.js application
 
-- Setup working directory
+Setup working directory
 
 ```Bash
 mkdir SCP-API && cd SCP-API
@@ -74,9 +76,9 @@ ubuntu@SCP:~$ mkdir SCP-API && cd SCP-API
 ubuntu@SCP:~/SCP-API$
 ```
 
-- Create `scp-api.js` and add following code
+Create ***`scp-api.js`*** and add following code
 
->***Replace `<Access Key>, <Secret key>, <Project ID>`***
+>***Replace `<Access Key>`, `<Secret key>`, `<Project ID>`***
 
 ```Bash
 cat <<EOF >scp-api.js
